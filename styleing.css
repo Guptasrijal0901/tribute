@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+} 
+.container{
+    background-color: rgb(187, 207, 225);
+    min-height: 100vh;
+    border: 10px solid black;
+}
+.content{
+    max-width: 900px;
+   
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.top_section{
+    /* display: flex  ;
+    justify-content: space-between ;  */
+    text-align: center;
+}
+.top_section h1 {
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.img_section , img {
+   border-radius: 20%;
+   border: 2px solid black ;
+}
+.about{
+    text-align: center ;
+    font-size: 40px;
+    font-weight: 100px;
+    font-style: bold ;
+    text-transform: uppercase;
+}
+.written{
+    font-size: 20px;
+    text-transform: initial;
+}
+
